@@ -1,100 +1,75 @@
-# ######################
-# ARITHMETIC OPERATORS
-# ######################
+print("*" * 34)
+print("|         OPERATORS IN PYTHON        |")
+print("*" * 34)
+print()
 
+# 1. Arithmetic Operators
+print("1. Arithmetic Operators")
 numberA = 4
 numberB = 2
+print(f"Addition: {numberA + numberB}")
+print(f"Subtraction: {numberA - numberB}")
+print(f"Multiplication: {numberA * numberB}")
+print(f"Division: {numberA / numberB}")
+print(f"Module: {13 % 5}")
+print(f"Exponentiation: {2 ** 8}")
+print()
 
-# Addition operator (+)
-print(numberA + numberB)  # 6
-
-# Subtraction operator (-)
-print(numberA - numberB)  # 2
-
-# Multiplication operator (*)
-print(numberA * numberB)  # 8
-
-# Division operator (/)
-print(numberA / numberB)  # 2.0
-
-# Returns the remainder of a division (%)
-print(13 % 5)  # 3
-
-# Exponentiation of two numbers
-print(2 ** 8)  # 256
-
-# Increment by one unit
+# Increment / Decrement
+print("Increment & Decrement examples")
 tempNumber1 = 2
 tempNumber1 += 1
-print(tempNumber1)  # 3
+print(f"Increment by 1: {tempNumber1}")
 
-# Decrement by one unit
 tempNumber2 = 5
 tempNumber2 -= 1
-print(tempNumber2)  # 4
+print(f"Decrement by 1: {tempNumber2}")
 
-# Increment by multiple units
 tempNumber3 = 3
 tempNumber3 += 5
-print(tempNumber3)  # 8
+print(f"Increment by 5: {tempNumber3}")
 
-# Decrement by multiple units
 tempNumber4 = 13
 tempNumber4 -= 4
-print(tempNumber4)  # 9
+print(f"Decrement by 4: {tempNumber4}")
+print()
 
-
-# #########################
-# COMPARISON OPERATORS
-# #########################
-
+# 2. Comparison Operators
+print("2. Comparison Operators")
 NUMBER1 = 20
 NUMBER2 = "20"
 NUMBER3 = 30
 
-# Equality comparison
-print(10 == 10)  # True
-print(10 == 14)  # False
-print(2 == "2")   # False
-print(2 == int("2"))  # True
-print(NUMBER1 == int(NUMBER2))  # True
-print(NUMBER1 == NUMBER3)  # False
+print(f"10 == 10 => {10 == 10}")
+print(f"10 == 14 => {10 == 14}")
+print(f"2 == '2' => {2 == '2'}")
+print(f"2 == int('2') => {2 == int('2')}")
+print(f"NUMBER1 == int(NUMBER2) => {NUMBER1 == int(NUMBER2)}")
+print(f"NUMBER1 == NUMBER3 => {NUMBER1 == NUMBER3}")
 
-# Inequality comparison
-print(10 != 10)  # False
-print(10 != 14)  # True
-print(2 != "2")  # True
-print(2 != int("2"))  # False
+print(f"10 != 10 => {10 != 10}")
+print(f"10 != 14 => {10 != 14}")
+print(f"2 != '2' => {2 != '2'}")
+print(f"2 != int('2') => {2 != int('2')}")
 
 PASSWORD = "Abc123"
 PASSWORD_CONFIRMATION = "ABC123"
+print(f"Passwords match? => {PASSWORD != PASSWORD_CONFIRMATION}")
 
-print(PASSWORD != PASSWORD_CONFIRMATION)  # True
+print(f"{NUMBER1} > {NUMBER3} => {NUMBER1 > NUMBER3}")
+print(f"{NUMBER1} < {NUMBER3} => {NUMBER1 < NUMBER3}")
+print(f"{NUMBER1} >= {NUMBER2} => {NUMBER1 >= int(NUMBER2)}")
+print(f"{NUMBER1} <= {NUMBER3} => {NUMBER1 <= NUMBER3}")
+print()
 
-# Greater than operator
-print(f"Is {NUMBER1} greater than {NUMBER3}? => {NUMBER1 > NUMBER3}")  # False
-
-# Less than operator
-print(f"Is {NUMBER1} less than {NUMBER3}? => {NUMBER1 < NUMBER3}")  # True
-
-# Greater than or equal to, or less than or equal to
-print(f"Is {NUMBER1} greater than or equal to {NUMBER2}? => {NUMBER1 >= int(NUMBER2)}")  # True
-print(f"Is {NUMBER1} less than or equal to {NUMBER3}? => {NUMBER1 <= NUMBER3}")  # True
-
-
-# #####################
-# LOGICAL OPERATORS
-# #####################
-
-# AND operator (and)
+# 3. Logical Operators
+print("3. Logical Operators")
 height = 4.0
-print(height >= 1.71 and type(height) == float)  # True
-print(height >= 1.71 and isinstance(height, int))  # False
+print(f"height >= 1.71 and type(height) == float => {height >= 1.71 and type(height) == float}")
+print(f"height >= 1.71 and isinstance(height, int) => {height >= 1.71 and isinstance(height, int)}")
 
-# OR operator (or)
-print(height >= 1.71 or isinstance(height, float))  # True
+print(f"height >= 1.71 or isinstance(height, float) => {height >= 1.71 or isinstance(height, float)}")
 
-# NOT operator (not)
 variable = True
-print(variable)  # True
-print(not variable)  # False
+print(f"Original variable: {variable}")
+print(f"Not variable: {not variable}")

@@ -44,4 +44,4 @@ print(type(x)) # outputs: <class 'bool'>
 
 Boolean values are generally not used to perform mathematical operations but are used to make decisions and perform branching. However, it's interesting to understand the relationship between types. Many types are just specialized versions of more general types. Integers are a subset of floating-point numbers, and boolean values are a subset of integers.</p>
 
-Explore [Examples](./main.py)
+Explore [Examples](variable_types.py)

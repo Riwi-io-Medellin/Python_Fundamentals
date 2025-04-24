@@ -43,10 +43,10 @@ Python is one of the world's most popular and versatile programming languages. I
 - Combining conditions with `and`, `or`, `not`
 - Examples of using logical operators
 
-### 8. [Lists](./08_list/list.py)
-- Creating and manipulating lists
-- Indexing and slicing
-- Common list methods
+### 8. [Collections in Python](./08_collections)
+- [Lists](./08_collections/lists.py): Creating and manipulating lists, indexing and slicing, common methods, interactive example
+- [Tuples](./08_collections/tuples.py): Immutable sequences, accessing items, tuple methods, comparison with lists, interactive exercise
+- [Dictionaries](./08_collections/dictionaries.py): Key-value structures, modifying and deleting elements, useful methods, nested dictionaries, interactive example
 
 ### 9. [Loops in Python](./09_loops/loops.py)
 - Loop `for`

@@ -1,19 +1,23 @@
-print("")
-print("#" * 18)
-print("OPERATORS COVERED")
-print("#" * 18)
-print("relational (>, <, >=, <=, ==, !=)")
-print("mathematical (+, -, *, /, //, **, %)")
-print("")
+print("*" * 40)
+print("|  CONDITIONALS & LOGICAL OPERATORS  |")
+print("*" * 40)
+print()
 
-print("")
-print("#" * 18)
-print("LOGICAL OPERATORS")
-print("#" * 18)
-print("logical (and, or, and not)")
-print("These operators are primarily used in conditional structures to group several simple conditions.")
-print("")
+# 1. Operators covered
+print("1. Operators covered")
+print("- Relational: >, <, >=, <=, ==, !=")
+print("- Mathematical: +, -, *, /, //, **, %")
+print()
 
+# 2. Logical Operators
+print("2. Logical Operators")
+print("- and: both conditions must be True")
+print("- or: at least one condition must be True")
+print("- not: negates the condition")
+print()
+
+# 3. Simple examples with logical operators
+print("3. Simple examples")
 condition1 = True
 condition2 = False
 
@@ -25,18 +29,23 @@ if condition1 == True or condition2 == True:
 
 if not condition1 == False:
     print("THIRD FLAG")
+print()
 
-# AND EXAMPLE
+# 4. Login Example with AND
+print("4. Login validation (AND example)")
 user = input("User => ")
 password = input("Password => ")
 
 if user == "admin" and password == "12345":
-    print("login successful")
+    print("Login successful")
 else:
-    print("login failed")
+    print("Login failed")
+print()
 
-# OR EXAMPLE
-print("check if a month is in the first quarter of the year")
-month = input("Month => ")
-if month == "January" or month == "February" or month == "March":
+# 5. Quarter validation with OR
+print("5. Quarter validation (OR example)")
+month = input("Enter a month (january, february, march) => ").lower()
+if month == "january" or month == "february" or month == "march":
     print("It corresponds to the first quarter")
+else:
+    print("It does not belong to the first quarter")
